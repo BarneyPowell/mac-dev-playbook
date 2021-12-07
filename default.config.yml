@@ -66,6 +66,9 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
+
+homebrew_cask_accept_external_apps: true
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -73,14 +76,23 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - firefox
+#  - firefox-developer-edition
+  - font-fira-code
   - google-chrome
+#  - google-chrome-canary
   - handbrake
+  - intellij-idea-ce
+#  - intellij-idea
   - licecap
+  - microsoft-teams
+  - openvpn-connect
   - sequel-ace
   - slack
   - sublime-text
   - transmit
   - vagrant
+  - visual-studio-code
+  - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
